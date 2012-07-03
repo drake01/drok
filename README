@@ -1,0 +1,49 @@
+Project:
+=========
+drok (drake+grok) - A developer's linux distro with the tools tailored
+for his/her needs.
+
+Author:
+=======
+drake01 (drakeoone@gmail.com)
+
+About the name: DROK= drake + grok
+=====================================
+drake - My Internet pseudonym. For details see the blogpost by me.
+
+grok- From the JargonFile (version 4.4.7) meaning
+
+" To understand. Connotes intimate and exhaustive knowledge. When you claim to
+?grok? some knowledge or technique, you are asserting that you have not merely
+learned it in a detached instrumental way but that it has become part of you,
+part of your identity. For example, to say that you ?know? {LISP} is simply to
+assert that you can code in it if necessary ?  but to say you ?grok? LISP is to
+claim that you have deeply entered the world-view and spirit of the language,
+with the implication that it has transformed your view of programming.  Contrast
+{zen}, which is similar supernal understanding experienced as a single brief
+flash."
+
+Story of where it came from:
+==============================
+This is my personal distro I have been using for a while now. I created by compling  the
+softwares from free sources downloaded off the internet. The softwares used are the stable
+versions available at the time I started with the project (feb,2012).
+The  sense of achievement one gets after being able to run a full operating
+system created from the files written in high level languages for the pieces of
+hardware is what inspired me to create(or build) it. The name and share with everbody else
+are secondary.
+
+BUGS:
+=====
+1) For now the user has to copy the files and create the /proc, mount the /dev
+himself by mounting the /dev currently in use by the user.
+TODO: Automate it for the release.
+
+2) drok uses the grub as the bootloader which is currently not automated. So the
+user has to install, update grub himself if one wants to run the system.
+TODO: Automate it for the release.
+
+LICENSE:
+=================
+The codebase and binaries are protected under the laws of the GPL. You should have received
+a copy of it with this package with the filename LICENSE.
